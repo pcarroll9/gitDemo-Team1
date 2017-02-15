@@ -89,7 +89,7 @@ class BJ_Player(BJ_Hand):
 class BJ_Dealer(BJ_Hand):
     """ A Blackjack Dealer. """
     def is_hitting(self):
-        return self.total < 17
+        return self.total < 16
 
     def bust(self):
         print(self.name, "busts.")
